@@ -82,7 +82,7 @@ ul, li, h1, p, body{
 .navigation__list {
     list-style: none;
     display: flex;
-    overflow: hidden;
+    overflow-x: auto;
     margin-bottom: 24px;
 }
 .navigation__item {
