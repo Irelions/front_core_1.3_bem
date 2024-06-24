@@ -1,7 +1,12 @@
-ul, li, h1, p, body{
+ul, li, h2, p, body{
     margin: 0;
     padding: 0;
     list-style: none;
+}
+a, address{
+    font-style: normal;
+    text-decoration: none;
+    color: inherit;
 }
 
 .mobile--menu {
@@ -14,6 +19,7 @@ ul, li, h1, p, body{
     font-family: TT Lakes, sans-serif;
     box-shadow: -30px -30px 50px 20px #7E7E82;
 }
+
 .mobile--menu__header {
     display: flex;
     justify-content: space-between;
@@ -28,11 +34,13 @@ ul, li, h1, p, body{
     align-items: center;
     gap: 16px;
 }
+
 .mobile--menu__title {
     display: flex;
     align-items: center;
     margin-bottom: 14px;
 }
+
 .mobile--menu__vert--line {
     height: 40px;
     margin-right: 24px;
@@ -41,6 +49,7 @@ ul, li, h1, p, body{
     border-bottom-right-radius: 4px;
 
 }
+
 .mobile--menu__text {
     text-align: left;
     align-self: center;
@@ -49,6 +58,7 @@ ul, li, h1, p, body{
     color: #7E7E82;
 
 }
+
 .mobile--menu__navigation{
     display: flex;
     flex-direction: row;
@@ -61,6 +71,7 @@ ul, li, h1, p, body{
 .mobile--menu__content{
     margin-bottom: 24px;
 }
+
 .mobile--menu__wrapper {
     padding: 0 32px;
 }
@@ -71,22 +82,26 @@ ul, li, h1, p, body{
     gap: 16px;
     margin-bottom: 20px;
 }
+
 .mobile--footer__email {
     font-size: 16px;
     text-align: left;
     margin-bottom: 12px;
 }
+
 .mobile--footer__phone {
     font-size: 24px;
     text-align: left;
     font-weight: bold;
     margin-bottom: 28px;
 }
+
 .mobile--footer__language {
     display: flex;
     gap: 7px;
     margin-bottom: 32px;
 }
+
 .language__item {
     width: 24px;
     height: 24px;
@@ -97,6 +112,11 @@ ul, li, h1, p, body{
 
 .language__active {
     color: #7E7E82;
+}
+
+.mobile--footer__icon{
+    width: 40px;
+    height: 40px;
 }
 
 .mobile--footer__icon:hover {
